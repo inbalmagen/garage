@@ -29,7 +29,7 @@ def edit_car(garage):
             car["color"] = new_color
             print(f"car '{model}' updated successfully.")
             return
-        print(f"car '{model}' not found.")
+    print(f"car '{model}' not found.")
 
 
 def delete_car(garage):
